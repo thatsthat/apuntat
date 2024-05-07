@@ -32,14 +32,14 @@ body {
 .barcontainer {
   background-color: #b8b8b8;
   position: relative;
-  transform: translateX(-25%) translateY(-65%);
+  transform: translateX(-50%) translateY(-70%);
   top: 50%;
   margin-left: 50px;
   width: 15vw;
   height: 75vh;
   float: left;
   border: darken(hsl(211, 30%, 69%), 40%) 3px solid;
-  border-radius: 20px;
+  border-radius: 15px;
 }
 
 .bar {
@@ -57,8 +57,8 @@ body {
   transform-origin: bottom;
   font-size: 1.5rem;
   color: white;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 @keyframes grow {
